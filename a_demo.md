@@ -1,3 +1,15 @@
+{{#template name='a_demo_excerpt'}}
+
+![image](/images/Guide-front-1024x7211.png)
+
+#### Posted by **Pat Ferrel** on Apr 1, 2016, on **use case, recommender**
+
+# A Demo is Worth a Thousand Words
+
+Last year using an older version of the Universal Recommender I built a little demo app. It runs in my closet on an old desktop over Comcast so don’t...
+
+{{/template}}
+
 {{#template name='a_demo'}}
 # A Demo is Worth a Thousand Words
 

@@ -1,4 +1,12 @@
 PostList = [
-  {title: 'A Demo is Worth a Thousand Words', template: "a_demo"},
-  {title: 'Second blog post', template: "second_blog_post"},
+  {
+    title: "A Demo is Worth a Thousand Words",
+    template: "a_demo",
+    excerpt: "a_demo_excerpt",
+    categories: ["use case", "recommender"]
+  },
+  {
+    title: 'Second blog post',
+    template: "second_blog_post"
+  },
 ];
