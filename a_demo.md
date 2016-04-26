@@ -6,7 +6,7 @@
 
 # [A Demo is Worth a Thousand Words](/blog/{{template}})
 
-Last year using an older version of the Universal Recommender I built a little demo app. It runs in my closet on an old desktop over Comcast so don’t...
+### Last year using an older version of the Universal Recommender I built a little demo app. It runs in my closet on an old desktop over Comcast so don’t...
 {{/template}}
 
 {{#template name='a_demo'}}
