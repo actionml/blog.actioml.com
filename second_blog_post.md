@@ -4,7 +4,7 @@
 
 #### Posted by **Pat Ferrel** on Apr 4, 2016, on **tests, templates**
 
-# [Another blog post test](/bog/{{ template }})
+# [Another blog post test](/blog/{{ template }})
 
 ### Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
 {{/template}}
