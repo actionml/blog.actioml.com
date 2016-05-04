@@ -1,9 +1,10 @@
 PostList = [
 {
-    title: "A Markdown Demo",
+    title: "A Markdown Test",
     template: "md_test",
     excerpt: "md_test_excerpt",
-},{
+},
+{
     title: "A Demo is Worth a Thousand Words",
     template: "a_demo",
     excerpt: "a_demo_excerpt",
