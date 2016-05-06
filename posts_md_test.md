@@ -57,7 +57,7 @@ and space-number
    1. Ordered sub-list
 4. And another item.
 
-after some intervening text we can do unordered lists again
+After some intervening text we can do unordered lists again.
 
 * Unordered list can use asterisks
 - Or minuses
