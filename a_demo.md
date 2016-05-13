@@ -1,22 +1,28 @@
 {{#template name='a_demo_excerpt'}}
 
-![image](/blog/images/Guide-front-1024x7211.png)
+![image](/blog/images/guide-front-220x220.png)
 
-#### Posted by **Pat Ferrel** on Apr 1, 2016, on **use case, recommender**
+#### Posted by **Pat Ferrel** on Apr 1, 2016
 
 # [A Demo is Worth a Thousand Words](/blog/{{template}})
 
-### Last year using an older version of the Universal Recommender I built a little demo app. It runs in my closet on an old desktop over Comcast so don’t...
+### While developing The Universal Recommender we created a demo app. We got real data from RottenTomatoes.com from reviewers so it makes real recommendations, take a try. 
 {{/template}}
 
 {{#template name='a_demo'}}
 
 # A Demo is Worth a Thousand Words
 
-![image](/blog/images/Guide-front-1024x7211.png)
+[![image](/blog/images/guide-front-900x720.png)](http://guide.actionml.com)
 
-Last year using an older version of the Universal Recommender I built a little demo app. It runs in my closet on an old desktop over Comcast so don’t expect speed but it does work fairly nice. I got the recommender data by scraping Rottentomatoes for reviews so there isn’t a huge amount of training data but give it a try. You need to create an account so it can track your preferences then try out the trainer, which leads you through a bunch of specially chosen videos you can rate. Once you have a few preferences it makes recommendations.
+While developing The Universal Recommender we created a demo app. We got real data from RottenTomatoes.com reviewers so it makes real recommendations, give it a try. You need to create an account then go to the trainer, which leads you through a bunch of specially chosen videos you can like or dislike. Once you have a few preferences it makes personalized recommendations.
 
-Caveat Emptor: Sorry for dupes in the Videos list, there are several names for the same content in RT. Don’t expect much from search it is only minimally hooked up for how.
+This turned out to be a great experiment because we were able to get lots of user preference indicators. You might not guess it but we found user *dislikes* helped predict *likes*.
+
+This demo uses ActionML's Universal Recommender for multi-action recommendations and Clustering to pick the most differentiating videos for the trainer.
+
+We illustrate several UR features here like the use of video properties to narrow down recommendations in a hybrid of Collaborative Filtering and Content-based recommendations. 
+
+Caveat Emptor: Sorry for dupes in the Videos list, RT could use a little data scrubbing. Don’t expect much from search it is only minimally hooked up for how.
 
 {{/template}}
