@@ -12,7 +12,7 @@
 {{#template name='a_demo'}}
 
 # A Demo is Worth a Thousand Words
-posted by [**Pat**](mailto:pat@actionml.com) May 13, 2016
+posted by [**Pat Ferrel**](mailto:pat@actionml.com) May 13, 2016
 
 [![image](/blog/images/guide-front-900x720.png)](http://guide.actionml.com)
 
