@@ -1,6 +1,6 @@
 {{#template name='a_demo_excerpt'}}
 
-![image](/images/blog/Guide-front-1024x7211.png)
+![image](/blog/images/Guide-front-1024x7211.png)
 
 #### Posted by **Pat Ferrel** on Apr 1, 2016, on **use case, recommender**
 
