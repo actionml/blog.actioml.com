@@ -10,10 +10,5 @@ PostList = [
         template: "ur_algo_slides",
         excerpt: "ur_algo_slides_excerpt",
         categories: ["use case", "recommender"],
-    },
-    {
-        title: "A Markdown Test",
-        template: "posts_md_test",
-        excerpt: "posts_md_test_excerpt",
     }
 ];
