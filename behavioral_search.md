@@ -72,6 +72,6 @@ We now have happier customers and more sales and anyone can do it that has the d
 
 ## Postscript
 
-The math goes on. We can do the same trick with almost anything known about the user; their gender, location, category-preferences, genre-preferences, pageviews, and so-on. All that log data we were all throwing away can literally be converted into happier customers and more conversions. We are developing a template that implements this algorithm to make it even easier.
+The math goes on. We can do the same trick with almost anything known about the user; their gender, location, category-preferences, genre-preferences, pageviews, and so-on. All that log data being thrown away can literally be converted into happier customers and more conversions. At ActionML we have an engine that implements this algorithm so no more excuses.
 
 {{/template}}
