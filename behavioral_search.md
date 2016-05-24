@@ -52,7 +52,7 @@ yields a matrix of all cross-occurrences of conversion-ids in rows and search ph
 
 For example if a conversion is a purchase, then the rows will correspond to product-ids and reading along the row for the product will be elements (search phrases) that likely led to the product being purchased. Converting the ordinality of the rows and columns back into something readable it will look like this:
 
-![image](/blog/images/atb-text-400x75.png)
+![image](/blog/images/atb-text-700x131.png)
 
 ## Augmented Search
 
