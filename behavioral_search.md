@@ -28,7 +28,7 @@ OK we figured Google could do this but Amazon has been a trailblazer in Machine 
 
 For a user who had purchased a Blueray Player Amazon shows how different the search results can be.
 
-![image](/blog/images/behvioral-search-1000x482.png)
+![image](/blog/images/behavioral-search-1000x482.png)
 
 Every media or ecom application has search, how many do you think have *Behavioral Search*? If you owned such an application what the value of 3% sales lift be? This is essentially free lift, no extra advertising cost, no special promotions, just more sales. There is a technology cost and you may not have as many brainy Data Scientists t as Amazon, but that's no excuse anymore. Let me describe how to implement Personalized "Behavior-Based" search.
 
@@ -52,7 +52,7 @@ yields a matrix of all cross-occurrences of conversion-ids in rows and search ph
 
 For example if a conversion is a purchase, then the rows will correspond to product-ids and reading along the row for the product will be elements (search phrases) that likely led to the product being purchased. Converting the ordinality of the rows and columns back into something readable it will look like this:
 
-![image](/blog/atb-text-400x75.png)
+![image](/blog/images/atb-text-400x75.png)
 
 ## Augmented Search
 
