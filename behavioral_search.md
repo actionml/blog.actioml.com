@@ -74,6 +74,6 @@ We now have happier customers and more sales.
 
 ## Postscript
 
-The math goes on. We can do the same trick with almost anything known about the user; their gender, location, category-preferences, genre-preferences, pageviews, and so-on. All that log data being thrown away can literally be converted into happier customers and more conversions. At ActionML we have an engine that implements this algorithm so no more excuses.
+The math goes on. We can apply the same technique with almost anything known about the user - genders, locations, category-preferences, genre-preferences, pageviews, and so-on. All that data that's currently being thrown away can be used to provide better customer experience and more conversions. [Contact us today](http://actionml.com/#contact) to learn more about how you can setup the Behavior Search Engine on your application.
 
 {{/template}}
