@@ -1,8 +1,8 @@
 PostList = [
     {
         title: "Personalized Search",
-        template: "behavioral_search",
-        excerpt: "behavioral_search_excerpt",
+        template: "personalized_search",
+        excerpt: "personalized_search_excerpt",
         categories: ["use case", "recommender"],
     },
     {

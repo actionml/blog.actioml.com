@@ -1,4 +1,4 @@
-{{#template name='behavioral_search_excerpt'}}
+{{#template name='personalized_search_excerpt'}}
 
 ![image](/blog/images/behavioral-search-220x220.png)
 
@@ -9,7 +9,7 @@
 ### How Google and Amazon "personalize" and augment search. Using your old log files you may be able to do it too.  
 
 {{/template}}
-{{#template name='behavioral_search'}}
+{{#template name='personalized_search'}}
 
 Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 # Personalized Search
