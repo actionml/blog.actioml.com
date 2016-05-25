@@ -32,7 +32,7 @@ A user who had searched for "24" and ended up purchasing "24 Season 2". They wat
 
 ![image](/blog/images/behavioral-search-1000x482.png)
 
-Every media or ecommerce application has a search feature, how many do you think have *Personalized Search*? If you work on such an application, what would you give for a 3% sales lift? This is essentially free lift, no extra advertising cost, no special promotions needed, just more sales. There is a technology cost and you may not have as many brainy Data Scientists as Amazon, but that's no excuse anymore. Let me describe how to implement Personalized "Behavior-Based" search.
+Every media or ecommerce application has a search feature, but how many do you think have *Personalized Search*? If you work on such an application, what would you give for a 3% sales lift? This is essentially free lift, no extra advertising cost, no special promotions needed, just more sales. There is a technology cost and you may not have as many brainy Data Scientists as Amazon, but that's no excuse anymore. Let me describe how to implement Personalized "Behavior-Based" search.
 
 ## Correlation is the Key
 
@@ -74,6 +74,6 @@ We now have happier customers and more sales.
 
 ## Postscript
 
-The math goes on. We can apply the same technique with almost anything known about the user - genders, locations, category-preferences, genre-preferences, pageviews, and so-on. All that data that's currently being thrown away can be used to provide better customer experience and more conversions. [Contact us today](http://actionml.com/#contact) to learn more about how you can setup the Behavior Search Engine on your application.
+The math goes on. We can apply the same technique with almost anything known about the user - genders, locations, category-preferences, genre-preferences, pageviews, and so-on. All that data can be used to provide better customer experience and more conversions. [Contact us today](http://actionml.com/#contact) to learn more about how you can setup the Behavior Search Engine on your application.
 
 {{/template}}
