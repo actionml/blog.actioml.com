@@ -14,15 +14,15 @@
 Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 # Personalized Search
 
-Search is about finding keywords, right? Well, partly, but if you stand back it's really about helping the user finding something. What if the word the user has in mind isn't in the text? How often have you spent an hour choosing different words until search gave you the right result? Often the words you think will work&mdash;don't. We app developers are just out of luck, right? Not at all, with a little machine learning we can actually use the words that other people used along other signals to make pretty good guesses at what the user is looking for.
+Search is about finding keywords, right? Well, partly, but if you stand back it's really about helping users discover products or content they would be interested in. What if the words users search for aren't in the text? How often have you spent an hour choosing different words until the search engine gave you the right result? Often the words you think will work&mdash;don't. We, app developers, are just out of luck, right? Not at all, with a little machine learning we can actually leverage the search terms users have used collectively, along with other signals, to make pretty good guesses at what an user is looking for.
 
-In business terms; if your customer can't find the right words to get where they want&mdash;they are frustrated and you loose a sale. Both are not good. What if I could tell you about a company that got 3% increase in sales by using the kind of ML I'm talking about? Read-on.
+In business terms; if your customer can't find the right words to get where they want&mdash;they are frustrated and you lose a sale. Both are not good. What if I could tell you about a company that got 3% increase in sales by using the kind of ML I'm talking about? Read-on.
 
 First let's look at what the experts say:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EKuG2M6R4VM" frameborder="0" allowfullscreen></iframe>
 
-Notice that they used exactly the same word and it didn't mean what you thought it did, in fact it meant 2 different things. They couldn't go over every case and in fact the word you use may not be on the web page, the word may just be what you and others think *should* be on the page.
+Notice that they used exactly the same word and it didn't mean what you thought it would, in fact it meant 2 different things. They couldn't go over every case and in fact the word you use may not be on the web page, the word may just be what you and others think *should* be on the page.
 
 OK we figured Google could do this but Amazon has been a trailblazer in Machine Learning too. They gave the technique the name "Behavior-Based Search", which they describe as "People who searched for X bought item Y.” In a survey of web machine learning technology produced at Stanford they disclosed that "the feature increased Amazon’s revenue by 3%" [[1](http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf)]
 
