@@ -2,7 +2,7 @@
 
 ![image](/blog/images/guide-front-220x220.png)
 
-#### Posted by **Pat Ferrel** on Apr 1, 2016
+#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
 
 # [A Demo is Worth a Thousand Words](/blog/{{template}})
 
@@ -11,8 +11,9 @@
 
 {{#template name='a_demo'}}
 
+posted by [**Pat Ferrel**](mailto:pat@actionml.com) January 15, 2016
+
 # A Demo is Worth a Thousand Words
-posted by [**Pat Ferrel**](mailto:pat@actionml.com) May 13, 2016
 
 [![image](/blog/images/guide-front-900x720.png)](http://guide.actionml.com)
 

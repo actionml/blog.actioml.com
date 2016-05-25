@@ -2,7 +2,7 @@
 
 ![image](/blog/images/ur-algo-slides-220x220.png)
 
-#### Posted by **Pat Ferrel** on Apr 1, 2016
+#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on April 1, 2016
 
 # [Correlated Cross-Occurrence in The Universal Recommender](/blog/{{template}})
 
@@ -10,6 +10,8 @@
 {{/template}}
 
 {{#template name='ur_algo_slides'}}
+
+Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on April 1, 2016
 
 # Correlated Cross-Occurrence in The Universal Recommender
 posted by [**Pat Ferrel**](mailto:pat@actionml.com) May 13, 2016

@@ -1,6 +1,6 @@
 {{#template name='behavioral_search_excerpt'}}
 
-![image](/blog/images/ur-algo-slides-220x220.png)
+![image](/blog/images/behavioral-search-220x220.png)
 
 #### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 
