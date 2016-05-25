@@ -26,7 +26,7 @@ Notice that they used exactly the same word and it didn't mean what you thought 
 
 Amazon, another trailblazer in Machine Learning, gave the technique the name "Behavior-Based Search". They describe it as "People who searched for X bought item Y.” In a survey of web machine learning technology produced at Stanford they disclosed that "the feature increased Amazon’s revenue by 3%" [[1](http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf)]
 
-#### Search Experience Before and After Behavioral Search
+## Search Experience Before and After Behavioral Search
 
 A user who had searched for "24" and ended up purchasing "24 Season 2". They watch the DVD and then search for "24" again. Amazon shows the results on the right, log-out and they show the left.
 
