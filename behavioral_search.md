@@ -16,23 +16,23 @@ Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 
 Search is about finding keywords, right? Well, partly, but if you stand back it's really about helping users discover products or content they would be interested in. What if the words users search for aren't in the text? How often have you spent an hour choosing different words until the search engine gave you the right result? Often the words you think will work&mdash;don't. We, app developers, are just out of luck, right? Not at all, with a little machine learning we can actually leverage the search terms users have used collectively, along with other signals, to make pretty good guesses at what an user is looking for.
 
-In business terms; if your customer can't find the right words to get where they want&mdash;they are frustrated and you lose a sale. Both are not good. What if I could tell you about a company that got 3% increase in sales by using the kind of ML I'm talking about? Read-on.
+In business terms; if your customer can't find the right words to get where they want&mdash;they are frustrated and you lose a sale. Both are not good. What if I could tell you about a company that achieved 3% increase in sales by using the kind of ML I'm talking about? Read-on.
 
 First let's look at what the experts say:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EKuG2M6R4VM" frameborder="0" allowfullscreen></iframe>
 
-Notice that they used exactly the same word and it didn't mean what you thought it would, in fact it meant 2 different things. They couldn't go over every case and in fact the word you use may not be on the web page, the word may just be what you and others think *should* be on the page.
+Notice that they used exactly the same word and it didn't mean what you thought it would, in fact the would could have 2 different meanings. They couldn't go over every case and in fact the word you use may not be on the web page, the word may just be what you and others think *should* be on the page.
 
-OK we figured Google could do this but Amazon has been a trailblazer in Machine Learning too. They gave the technique the name "Behavior-Based Search", which they describe as "People who searched for X bought item Y.” In a survey of web machine learning technology produced at Stanford they disclosed that "the feature increased Amazon’s revenue by 3%" [[1](http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf)]
+Amazon, another trailblazer in Machine Learning, gave the technique the name "Behavior-Based Search". They describe it as "People who searched for X bought item Y.” In a survey of web machine learning technology produced at Stanford they disclosed that "the feature increased Amazon’s revenue by 3%" [[1](http://ai.stanford.edu/~ronnyk/2009controlledExperimentsOnTheWebSurvey.pdf)]
 
-#### Before and After Behavioral Search
+#### Search Experience Before and After Behavioral Search
 
 A user who had searched for "24" and ended up purchasing "24 Season 2". They watch the DVD and then search for "24" again. Amazon shows the results on the right, log-out and they show the left.
 
 ![image](/blog/images/behavioral-search-1000x482.png)
 
-Every media or ecom application has search, how many do you think have *Personalized Search*? If you work on such an application would you give for a 3% sales lift be? This is essentially free lift, no extra advertising cost, no special promotions, just more sales. There is a technology cost and you may not have as many brainy Data Scientists as Amazon, but that's no excuse anymore. Let me describe how to implement Personalized "Behavior-Based" search.
+Every media or ecommerce application has a search feature, how many do you think have *Personalized Search*? If you work on such an application, what would you give for a 3% sales lift? This is essentially free lift, no extra advertising cost, no special promotions needed, just more sales. There is a technology cost and you may not have as many brainy Data Scientists as Amazon, but that's no excuse anymore. Let me describe how to implement Personalized "Behavior-Based" search.
 
 ## Correlation is the Key
 
