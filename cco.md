@@ -1,0 +1,37 @@
+{{#template name='cco_excerpt'}}
+
+![image](/blog/images/cco.png)
+
+#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
+
+# [Correlated Cross-Occurrence (CCO): Not All Events are Created Equal](/blog/{{template}})
+
+### How some research with recommenders led us to solve the problem of having huge amounts of data that we could not use&mdash;an only moderately geeky story. 
+
+{{/template}}
+
+{{#template name='cco'}}
+
+# Correlated Cross-Occurrence (CCO): How to make data behave as we want
+
+A core innovation in The Universal Recommender and Behavioral Search is the Correlated Cross-Occurrence Algorithm. Virtually all recommenders except the UR can use only conversion data. This frustrated me when I was looking at 100x page views so I did some experiments. I tried combining page views with purchase data in a terabyte large e-commerce dataset from a large e-com vendor. 
+
+We performed experiments using the [popular MAP@k metric](https://en.wikipedia.org/wiki/Information_retrieval#Mean_average_precision) in cross-validation tests. In other words we split the data into 90% training data, and 10% test data. We split by date so as to mimic the real world as best we could in offline tests. Then we trained a recommender on the training dataset and made queries for users in the test set. Since some of those users had purchases in the test set we could apply a precision and recall based test like MAP. For each user we got recommendations and compared them to the purchases we knew about in the held-out test set. 
+
+We used the older style Cooccurrence and Matrix Factorization (usually called ALS) recommenders with the training data. To get a baseline result we first trained as they were intended&mdash;only on the conversion event: purchase. But there was all this data thrown out, and we knew it had some value&mdash;namely page views. In fact we had 100x page views per purchase. We wanted to find a way to use this data. The only approach that could work with the then existing recommenders as to weight all page views as less than a purchase on the theory that they are not as strong an indicator of user preference. There is a key mistake made in this logic that we discovered.
+
+We took the MAP@k for purchase and compared it with MAP@k for purchases mixed with page views that we weighted by a range of values for each test. In all cases <strong>we found page views decreased MAP@k</strong>. This was very discouraging but caused us to re-think our original assumption. Yes page views are not as indicative of what the user will purchase but some page views lead to purchases and some do not. This means that not all can be treated with the same weight. We thought about tracing user paths to see which page views led to purchases but this is laborious and highly error prone. 
+
+In discussions with Ted Dunning (a mentor to Apache Mahout, where we got the Cooccurrence and ALS recommenders) he described a way to compare 2 events at the individual level. The comparison is called the Log-Likelihood Ratio or LLR. This would allow us to look across all page views and see which correlated with which purchases. Aha, not all page view are created equal but we now had a way to find the important ones!
+
+Unfortunately, this sort of cross-correlation had not been built into open source. This was in 2013 and led to a long string of Open Source work, starting with a prototype I did by modfying the old Hadoop version of Mahout. This in turn led to my joining Mahout as a Committer. The theory seemed to work but by now I didn't have access to the same dataset so I had to start over and create a new one.
+
+I noticed that Rotten Tomatoes had easily mined reviews with either "fresh" or "rotten". After scraping the sote for reviews I trained the older Mahout recommenders on "fresh" and got a certain MAP@k. But how would you weight a "rotten"? This illustrated the problem with a single weight per event type. Would it mean a negative weight on the reviewed item? From our analysis of page views we would answer no, single weights don't work. So I took the "rotten" reviews and let LLR do the individual weighting and correlation discovery. After adding "rotten" and as secondary indicator to the prototype Correlated Cross-Occurrence recommender we got a 20% lift in MAP@k. Finally we had a way to use just about any user data to improve recommendations. 
+
+About this time Mahout decided to pivot from relying on Hadoop MapReduce into basing all new work on Spark, an up-and-coming super fast distributed comput engine. The old MapReduce recommenders from Mahout would take much of a day to train and since I was now a committer to Mahout I took the sketch of a CCO algorithm that another committer (Sebastian Schelter) had started and created a full blown CCO model calculation in the new "Mahout-Samsara" based on Spark. 
+
+Now all we had to do is create a recommender to use the model Mahout-Samsara could create. But that is a story for another post. Suffice for now to say that The Universal Recommender was the result. Here is a preso describing the inner workings of the recommender and CCO.
+
+<iframe src="https://docs.google.com/presentation/d/1MzIGFsATNeAYnLfoR6797ofcLeFRKSX7KB8GAYNtNPY/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+{{/template}}
