@@ -1,17 +1,3 @@
-{{#template name='cco_excerpt'}}
-
-![image](/blog/images/cco.png)
-
-#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
-
-# [Correlated Cross-Occurrence (CCO): Not All Events are Created Equal](/blog/{{template}})
-
-### How some research with recommenders led us to solve the problem of having huge amounts of data that we could not use&mdash;an only moderately geeky story. 
-
-{{/template}}
-
-{{#template name='cco'}}
-
 # Correlated Cross-Occurrence (CCO): How to make data behave as we want
 
 A core innovation in The Universal Recommender and Behavioral Search is the Correlated Cross-Occurrence Algorithm. Virtually all recommenders except the UR can use only conversion data. This frustrated me when I was looking at 100x page views so I did some experiments. I tried combining page views with purchase data in a terabyte large e-commerce dataset from a large e-com vendor. 
@@ -33,5 +19,3 @@ About this time Mahout decided to pivot from relying on Hadoop MapReduce into ba
 Now all we had to do is create a recommender to use the model Mahout-Samsara could create. But that is a story for another post. Suffice for now to say that The Universal Recommender was the result. Here is a preso describing the inner workings of the recommender and CCO.
 
 <iframe src="https://docs.google.com/presentation/d/1MzIGFsATNeAYnLfoR6797ofcLeFRKSX7KB8GAYNtNPY/embed?start=false&loop=false&delayms=60000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-{{/template}}

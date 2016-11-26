@@ -1,16 +1,3 @@
-{{#template name='personalized_search_excerpt'}}
-
-![image](/blog/images/behavioral-search-220x220.png)
-
-#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
-
-# [Personalized Search](/blog/{{template}})
-
-### How Google and Amazon "personalize" and augment search. Using your old log files you may be able to do it too.  
-
-{{/template}}
-{{#template name='personalized_search'}}
-
 Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 # Personalized Search
 
@@ -30,7 +17,7 @@ Amazon, another trailblazer in Machine Learning, gave the technique the name "Be
 
 A user who had searched for "24" and ended up purchasing "24 Season 2". They watch the DVD and then search for "24" again. Amazon shows the results on the right, log-out and they show the left.
 
-![image](/blog/images/behavioral-search-1000x482.png)
+![image](/images/blog/behavioral-search-1000x482.png)
 
 Every media or ecommerce application has a search feature, but how many do you think have *Personalized Search*? If you work on such an application, what would you give for a 3% sales lift? This is essentially free lift, no extra advertising cost, no special promotions needed, just more sales. There is a technology cost and you may not have as many brainy Data Scientists as Amazon, but that's no excuse anymore. Let me describe how to implement Personalized "Behavior-Based" search.
 
@@ -42,19 +29,19 @@ We start with recording both conversions and search phrases for all users. Then 
 
 This application has much in common with the [Universal Recommender](/docs/ur) in that it will uses an algorithm called Correlated Cross-Occurrence. An interesting and powerful little stat called the Log-Likelihood Ratio will test if two events are correlated. Actually it tests for non-correlation but let's not quibble since in this case it amounts to the same information. It looks at the frequency of users and items in the data and of the particular cooccurrence or cross-occurrence. Here we us "cross" to indicate 2 different types of events, using search terms and conversion.
 
-![image](/blog/images/llr-equation-400x73.png)
+![image](/images/blog/llr-equation-400x73.png)
 
 This is a probabilistic stat that tells us whether to reject the hypothesis that any 2 events are correlated. In our case non-rejection is pretty strong evidence of correlation (practically speaking we checked and it works)[[2](https://www.mapr.com/practical-machine-learning)][[3](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwjVk5r20fPMAhUX6GMKHYPnCwcQtwIIMTAC&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DTn5y2i_MqQ8&usg=AFQjCNFU2iMTOPWKBthCR82Vak_uCxONpA)]
 
 So now all we have to do is check every time a search phrase cross-occurs with a conversion event. We have a simple Big Data technique for that, which is a bit of tensor math. If A = a matrix of users in rows and all observed conversion-ids in columns (this could be products purchased, videos viewed, pages visited%mdash;depending on the conversion type) and B = a matrix of those same users in rows and all observed search phrases in columns then 
 
-![image](/blog/images/atb-80x40.png)
+![image](/images/blog/atb-80x40.png)
 
 yields a matrix of all cross-occurrences of conversion-ids in rows and search phrases in columns. For every non-zero element of the matrix we apply the LLR to test for correlation. If there is a low confidence of correlation we toss the useless data, it is not very likely to have been a real factor in the user converting on the row. 
 
 For example if a conversion is a purchase, then the rows will correspond to product-ids and reading along the row for the product will be elements (search phrases) that likely led to the product being purchased. Converting the ordinality of the rows and columns back into something readable it will look like this:
 
-![image](/blog/images/atb-text-700x131.png)
+![image](/images/blog/atb-text-700x131.png)
 
 ## Augmented Search
 
@@ -66,7 +53,7 @@ But this is not Personalized, no need to stop there...
 
 We start with Augmented Search but we can also add other behavioral data to index augmenting fields. Notice that using the above definition of A as user rows by  conversion columns we get
 
-![image](/blog/images/ata-80x48.png)
+![image](/images/blog/ata-80x48.png)
 
 which tells us which conversions are correlated with other conversions. Now we know that people who bought "24 Season 1-4" also bought "24 Season 5" so if we augment the index for product "24 Season 5" with the other seasons we'll have a way to personalize. We need to bring in behavioral information about the user doing the search, like the Google guys did. If we know that the user searches for "24" **and** bought "24 Season 4", we send in the phrase "24" to the phrases-field (from Augmented Search) but we now bring in user history to send as a query to the purchases-field. The result will be anything with the phrase "24" boosted if it also has "24" in the phrases-field **and**  product-id for "24 Season 4" in the purchases-field. To put that another way we are combining the search terms typed in to the search box **and** user history of purchases to get results for search. We are using a search engine almost like a recommender.
 
@@ -75,5 +62,3 @@ We now have happier customers and more sales.
 ## Postscript
 
 The math goes on. We can apply the same technique with almost anything known about the user - genders, locations, category-preferences, genre-preferences, pageviews, and so-on. All that data can be used to provide better customer experience and more conversions. [Contact us today](http://actionml.com/#contact) to learn more about how you can setup the Personalized Search Engine for your application.
-
-{{/template}}
