@@ -79,7 +79,7 @@ Some text to show that the reference links can follow later.
 
 # Images
 
-Relative image src ![from /images/md.jpeg](/images/blog/md.jpeg)
+Relative image src ![from /images/md.jpeg](/blog/images/md.jpeg)
 
 Here's our logo (hover to see the title text):
 

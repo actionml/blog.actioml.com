@@ -1,4 +1,4 @@
-![image](/images/blog/guide-front-220x220.png)
+![image](/blog/images/guide-front-220x220.png)
 
 #### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
 

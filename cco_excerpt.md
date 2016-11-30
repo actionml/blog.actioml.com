@@ -1,4 +1,4 @@
-![image](/images/blog/cco.png)
+![image](/blog/images/cco.png)
 
 #### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
 

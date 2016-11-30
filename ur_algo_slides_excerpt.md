@@ -1,4 +1,4 @@
-![image](/images/blog/ur-algo-slides-220x220.png)
+![image](/blog/images/ur-algo-slides-220x220.png)
 
 #### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on April 1, 2016
 

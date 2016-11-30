@@ -2,7 +2,7 @@ posted by [**Pat Ferrel**](mailto:pat@actionml.com) January 15, 2016
 
 # A Demo is Worth a Thousand Words
 
-[![image](/images/blog/guide-front-900x720.png)](http://guide.actionml.com)
+[![image](/blog/images/guide-front-900x720.png)](http://guide.actionml.com)
 
 While developing The Universal Recommender we created a demo app. We got real data from RottenTomatoes.com reviewers so it makes real recommendations, give it a try. You need to create an account then go to the trainer, which leads you through a bunch of specially chosen videos you can like or dislike. Once you have a few preferences it makes personalized recommendations.
 

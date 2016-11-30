@@ -1,4 +1,4 @@
-![image](/images/blog/behavioral-search-220x220.png)
+![image](/blog/images/behavioral-search-220x220.png)
 
 #### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 
