@@ -1,15 +1,3 @@
-{{#template name='posts_md_test_excerpt'}}
-
-![image](/blog/images/Guide-front-1024x7211.png)
-
-#### Posted by **Pat Ferrel** on Apr 1, 2016, on **use case, recommender**
-
-# [Markdown Test Page](/blog/{{template}})
-
-### Last year using an older version of the Universal Recommender I built a little demo app. It runs in my closet on an old desktop over Comcast so don’t...
-{{/template}}
-
-{{#template name='posts_md_test'}}
 # Markdown examples
 
 # H1
@@ -91,7 +79,7 @@ Some text to show that the reference links can follow later.
 
 # Images
 
-Relative image src ![from /blog/images/md.jpeg](/blog/images/md.jpeg)
+Relative image src ![from /images/md.jpeg](/blog/images/md.jpeg)
 
 Here's our logo (hover to see the title text):
 
@@ -102,6 +90,3 @@ Reference-style:
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-
-{{/template}}

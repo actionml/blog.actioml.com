@@ -1,16 +1,3 @@
-{{#template name='a_demo_excerpt'}}
-
-![image](/blog/images/guide-front-220x220.png)
-
-#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
-
-# [A Demo is Worth a Thousand Words](/blog/{{template}})
-
-### While developing The Universal Recommender we created a demo app. We got real data from RottenTomatoes.com from reviewers so it makes real recommendations, give it a try. 
-{{/template}}
-
-{{#template name='a_demo'}}
-
 posted by [**Pat Ferrel**](mailto:pat@actionml.com) January 15, 2016
 
 # A Demo is Worth a Thousand Words
@@ -24,5 +11,3 @@ This turned out to be a great experiment because we were able to get lots of use
 This demo uses ActionML's Universal Recommender for multi-action recommendations and Clustering to pick the most differentiating videos for the trainer. We illustrate several UR features here like the use of video properties to narrow down recommendations in a hybrid of Collaborative Filtering and Content-based recommendations. 
 
 Caveat Emptor: Sorry for dupes in the Videos list, RT could use a little data scrubbing. Don’t expect much from search it is only minimally hooked up for how.
-
-{{/template}}

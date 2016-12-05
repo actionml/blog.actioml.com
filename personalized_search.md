@@ -1,16 +1,3 @@
-{{#template name='personalized_search_excerpt'}}
-
-![image](/blog/images/behavioral-search-220x220.png)
-
-#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
-
-# [Personalized Search](/blog/{{template}})
-
-### How Google and Amazon "personalize" and augment search. Using your old log files you may be able to do it too.  
-
-{{/template}}
-{{#template name='personalized_search'}}
-
 Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on May 24, 2016
 # Personalized Search
 
@@ -75,5 +62,3 @@ We now have happier customers and more sales.
 ## Postscript
 
 The math goes on. We can apply the same technique with almost anything known about the user - genders, locations, category-preferences, genre-preferences, pageviews, and so-on. All that data can be used to provide better customer experience and more conversions. [Contact us today](http://actionml.com/#contact) to learn more about how you can setup the Personalized Search Engine for your application.
-
-{{/template}}
