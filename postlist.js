@@ -23,3 +23,5 @@ PostList = [
         categories: ["use case", "recommender"]
     }
 ];
+
+PostListIndex = _(PostList).pluck('template')
