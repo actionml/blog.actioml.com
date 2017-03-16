@@ -16,7 +16,7 @@ This was producing endless searches that gave results that were mostly of no int
 
 Another Amazon feature is a wishlist. Add things to one and on the bottom of the page you get what is called "item-set" recommendations. Think of these as "other people that looked at things in your list bought these". Wow, things were getting much better now. To finally refine the recommendations I removed some wishlist items I liked the least.
 
-![](/blog/images/amsazon-tuscany-leather-messenger-bag-4.png)
+![](/blog/images/amazon-tuscany-leather-messenger-bag-4.png)
 
 Voila, the perfect computer bag appeared. It turns out I was looking for a "thin leather messenger bag with a leather shoulder strap". Try searching for that? You won't see the bag I bought. Add to this the fact that I had no idea what a "messenger bag" was when I started and had no idea that the cloth straps on some just looked wrong to me but when I saw the right one recommended at the bottom of the page I knew it immediately.
 
