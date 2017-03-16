@@ -70,8 +70,8 @@ BlogPartials = [
     template: "",
     ismd: true,
     shouldLoad: true
-  }
-    {
+  },
+  {
     name: "recommender_for_search",
     template: "",
     ismd: true,
