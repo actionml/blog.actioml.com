@@ -82,6 +82,7 @@ BlogPartials = [
     template: "",
     ismd: true,
     shouldLoad: true
+
   },
   {
     name: "404",

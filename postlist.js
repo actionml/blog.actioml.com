@@ -1,5 +1,10 @@
 PostList = [
     {
+        title: "When Search is not Enough: Use a Recommender",
+        template: "recommender_for_search",
+        excerpt: "recommender_for_search_excerpt",
+        categories: ["use case", "recommender"]
+    },{
         title: "Correlated Cross-Occurrence (CCO): Not All Events are Created Equal",
         template: "cco",
         excerpt: "cco_excerpt",

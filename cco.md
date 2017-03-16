@@ -1,3 +1,5 @@
+Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on December 1, 2016
+
 # Correlated Cross-Occurrence (CCO): How to make data behave as we want
 
 A core innovation in The Universal Recommender and Behavioral Search is the Correlated Cross-Occurrence Algorithm. Virtually all recommenders except the UR can use only conversion data. This frustrated me when I was looking at 100x page views so I did some experiments. I tried combining page views with purchase data in a terabyte large e-commerce dataset from a large e-com vendor. 
