@@ -72,6 +72,18 @@ BlogPartials = [
     shouldLoad: true
   },
   {
+    name: "recommender_for_search",
+    template: "",
+    ismd: true,
+    shouldLoad: true
+  },
+  {
+    name: "recommender_for_search_excerpt",
+    template: "",
+    ismd: true,
+    shouldLoad: true
+  },
+  {
     name: "404",
     template: "404",
     ismd: true,
