@@ -2,7 +2,7 @@ posted by [**Pat Ferrel**](mailto:pat@actionml.com) March 20, 2017
 
 # The Demise of Brick and Mortar and Old Media: The New Rules of The Game
 
-I'm supposed to stick to technical topics but I just can't help going on a bit of a rant here regarding the hopeless fumbling of many older companies trying to move online. Today one of the old-timers, once a huge winner in brick and mortar retailing, did the right thing. After decades of half measures Wal-Mart took made what seems to be an all-in bet. They announced a major effort to build a bleeding edge high-tech enclave with full financial and executive support.
+I'm supposed to stick to technical topics but I just can't help going on a bit of a rant here regarding the hopeless fumbling of many older companies trying to move online. Today one of the old-timers, once a huge winner in brick and mortar retailing, did the right thing. After decades of half measures Wal-Mart made what seems to be an all-in bet. They announced a major effort to build a bleeding edge high-tech enclave with full financial and executive support.
 
 <a href="https://www.bloomberg.com/news/articles/2017-03-20/wal-mart-unveils-store-no-8-tech-incubator-in-silicon-valley" target="_blank"><image src="/blog/images/wal-mart.jpg"></image></a>
 
