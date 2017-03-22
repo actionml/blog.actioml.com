@@ -1,4 +1,4 @@
-![image](/blog/images/wal-mart-excerpt.png)
+![image](/blog/images/wall-mart-excerpt.png)
 
 #### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on March 20, 2017
 
