@@ -1,7 +1,7 @@
-![image](/blog/images/guide-front-220x220.png)
+![image](/blog/images/wal-mart-excerpt.png)
 
-#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on January 15, 2016
+#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on March 20, 2017
 
-# [A Demo is Worth a Thousand Words](/blog/{{template}})
+# [The Demise of Brick and Mortar and Old Media: The New Rules of The Game](/blog/{{template}})
 
-### While developing The Universal Recommender we created a demo app. We got real data from RottenTomatoes.com from reviewers so it makes real recommendations, give it a try. 
+### Are the old guard of retail and media doomed? There is a way forwards but the new rules are not under their control. 

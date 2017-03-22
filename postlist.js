@@ -1,5 +1,10 @@
 PostList = [
     {
+        title: "The Demise of Brick and Mortar and Old Media: The New Rules of The Game",
+        template: "a_rant",
+        excerpt: "a_rant_excerpt",
+        categories: ["news", "opinion"]
+    },{
         title: "When Search is not Enough: Use a Recommender",
         template: "recommender_for_search",
         excerpt: "recommender_for_search_excerpt",
