@@ -6,7 +6,7 @@ I'm supposed to stick to technical topics but I just can't help going on a bit o
 
 <a href="https://www.bloomberg.com/news/articles/2017-03-20/wal-mart-unveils-store-no-8-tech-incubator-in-silicon-valley" target="_blank"><image src="/blog/images/wal-mart.jpg"></image></a>
 
-Quoth Bloomberg: "The incubator will partner with startups, venture capitalists and academics to promote innovation in robotics, virtual and augmented reality, machine learning and artificial intelligence, according to Wal-Mart."
+Quote Bloomberg: "The incubator will partner with startups, venture capitalists and academics to promote innovation in robotics, virtual and augmented reality, machine learning and artificial intelligence, according to Wal-Mart."
 
 We've all seen old media and retail companies die slow inevitable deaths over the last 20 years. The world has gone online and these companies still don't see themselves as technology companies, they think the web is just a new advertising or publishing platform. All I can say to this, and do read at high volume: WAKE UP!
 
