@@ -4,4 +4,4 @@
 
 # [The Demise of Brick and Mortar and Old Media: The New Rules of The Game](/blog/{{template}})
 
-### Are the old guard of retail and media doomed? There is a way forwards but the new rules are not under their control. 
+### Are the old guard of retail and media doomed? There is a way forward but the new rules are not under their control. 
