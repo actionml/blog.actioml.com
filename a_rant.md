@@ -2,7 +2,7 @@ posted by [**Pat Ferrel**](mailto:pat@actionml.com) March 20, 2017
 
 # The New Rules of The Game
 
-Today Wal-Mart one of the largest brick and mortar retailers, announced a major effort to build a bleeding edge high-tech enclave with full financial and executive support. 
+Today Wal-Mart, one of the largest brick and mortar retailers, announced a major effort to build a bleeding edge high-tech enclave with full financial and executive support. 
 
 <a href="https://www.bloomberg.com/news/articles/2017-03-20/wal-mart-unveils-store-no-8-tech-incubator-in-silicon-valley" target="_blank"><image src="/blog/images/wal-mart.jpg"></image></a>
 
