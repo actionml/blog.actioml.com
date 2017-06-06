@@ -1,5 +1,10 @@
 PostList = [
     {
+        title: "Predictive AI Meets GPUs",
+        template: "talk_at_gtc",
+        excerpt: "talk_at_gtc_excerpt",
+        categories: ["news", "datascience"]
+    },{
         title: "The Demise of Brick and Mortar and Old Media: The New Rules of The Game",
         template: "a_rant",
         excerpt: "a_rant_excerpt",

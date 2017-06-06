@@ -1,5 +1,16 @@
 BlogPartials = [
   {
+    name: "talk_at_gtc",
+    template: "",
+    ismd: true,
+    shouldLoad: true
+  },
+  {
+    name: "talk_at_gtc_excerpt",
+    template: "",
+    ismd: true,
+    shouldLoad: true
+  },  {
     name: "a_demo",
     template: "",
     ismd: true,
