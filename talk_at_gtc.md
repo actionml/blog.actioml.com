@@ -1,6 +1,6 @@
 # Predictive AI at GTC
 
-In May of 2017 I had the opportunity to talk at the Nvidia GPU conference about a strong use case for GPU acceleration&mdash;Predictive AI. ActionML has several technologies that relate because they use the algorithm called Correlated Cross Occurrence (CCO). The Algorithm is the core of the Universal Recommender and other applications like Behavioral Search and cross-domain preference predictions. It creates models by doing a lot of matrix multiplication using Apache Mahout and in that project we recently enabled GPU acceleration. A real life application that benefits from GPU acceleration, Nvidia asked us to come talk about it.
+In May of 2017 I had the opportunity to talk at the Nvidia GPU conference about a strong use case for GPU acceleration&mdash;Predictive AI. We discussed the algorithm called Correlated Cross Occurrence (CCO). The Algorithm is the core of the Universal Recommender and other applications like Behavioral Search and cross-domain preference predictions. It creates models by doing a lot of matrix multiplication using Apache Mahout and in that project we recently enabled GPU acceleration. A real life application that benefits from GPU acceleration, Nvidia asked us to come talk about it.
 
 Here is the video showing slides with narration from me for the first half then Andy Palumbo for the second half.
 
