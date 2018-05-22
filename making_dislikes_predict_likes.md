@@ -44,21 +44,15 @@ We will have a ranked list of recommended videos for each held-out user, we need
 
 ![](/blog/images/map-at-k.png)
 
-    map_at_k.png
-
 We will first measure MAP@1 thru MAP@10 for likes alone. This corresponds to a measure of how likely we are to show something a user really did like in the top k recommendations. Then we will measure MAP@k using likes **plus** dislikes. If we get lift then dislikes have been used to predict likes.
 
 We collected data:
 
 ![](/blog/images/rt-map-at-k-data.png)
 
-    rt-map-at-k-data.png
-
 We ran the test:
 
 ![](/blog/images/rt-map-at-k-chart.png)
-
-    rt-map-at-k-chart.png
 
 As you can see we got 18% lift by using dislikes as well as likes. Which translates to dislikes predicting likes. Now the "maybe" is turning to "sure that makes sense."
 
