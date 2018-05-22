@@ -14,19 +14,18 @@ Let's be more specific so we can test this; can we make a user's dislikes predic
 
 Notice one of the first really successful Recommender algorithms:
 
-![](/blog/images/cooccurrence-equation.png)
-    
-    L = a sparse matrix of all user likes
-    h_l = a sparse column vector of a specific user's likes
-    
-    r = [L'L]h_l
+![](/blog/images/likes-matrix.png)
+
+![](/blog/images/history-of-likes-vector.png)
+
+![](/blog/images/cooccurrence-recs-vector.png)
+
+
 
 The math says that every time an item "like" cooccurs with another item's "like" we have a possible correlation. In this sense cooccur means other users have liked the same item and the math counts those cooccurrences to create a score. If we sort/rank all items in the result vector by the cooccurrence scores we would have a decent recommender. But this equation has an extremely interesting extension:
 
 ![](/blog/images/cross-occcurrence-equation.png)
     
-    r = [L'L]h_l + [L'D]h_d ...
-
 What this says is that not only if a user's likes cooccurs with other users' likes but if a user's dislikes cross-occur with other users' likes then they may be correlated. If a lot of people dislike something and this cross-occurs with an item being liked, we have a way to predict likes from dislikes. Notice that there is nothing in the math about what D is and the technique can accept any number of cross-occurrence datasets. We'll call this algorithm Correlated Cross Occurrence (CCO).
 
 ActionML has implemented the CCO Algorithm and made it available both as a constituent of [Apache Mahout](http://mahout.apache.org/docs/latest/algorithms/reccomenders/) and as a full integrated end-to-end recommender system, appropriately called [The Universal Recommender](/universal-recommender), that takes input and serves query results. Why should you care? Read on...
