@@ -16,7 +16,7 @@ Notice one of the first really successful Recommender algorithms:
 
 ![](/blog/images/likes-matrix.png)
 
-<img src="/blog/images/history-of-likes-vector.png" style="margin:" alt="">
+![](/blog/images/history-of-likes-vector.png)
 
 ![](/blog/images/cooccurrence-recs-vector.png)
 
