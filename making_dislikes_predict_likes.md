@@ -15,7 +15,8 @@ Let's be more specific so we can test it; can we make a user's dislikes predict 
 Notice one of the first really successful Recommender algorithms:
 
 ![](/blog/images/likes-matrix.png)
-![](/blog/images/history-of-likes-vector.png)
+
+<img src="/blog/images/history-of-likes-vector.png" style="margin:" alt="">
 
 ![](/blog/images/cooccurrence-recs-vector.png)
 
