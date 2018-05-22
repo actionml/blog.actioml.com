@@ -23,7 +23,7 @@ Notice one of the first really successful Recommender algorithms:
 
 The math says that every time an item "like" cooccurs with another item's "like" we have a possible correlation. In this sense cooccur means other users have liked the same item and the math counts those cooccurrences to create a score. If we sort/rank all items in the result vector by the cooccurrence scores we would have a decent recommender. But this equation has an extremely interesting extension:
 
-![](/blog/images/cross-occurrence-equation.png)
+![](/blog/images/cross-occcurrence-equation.png)
     
     r = [L'L]h_l + [L'D]h_d ...
 
