@@ -1,6 +1,6 @@
-![](/blog/images/ibm-brain-large.png)
-
 # How to Make One Thing Predict Another with Multimodal Predictive AI
+
+![](/blog/images/ibm-brain-large.png)
 
 Most of the current trends in AI are focused on machines learning how to do what humans do, like drive cars, diagnose cancer, carry on a chat session. Today let's look at things from the other perspective, how do we use AI to read a human mind. 
 
@@ -43,7 +43,7 @@ We will setup a standard cross-validation experiment where we randomly choose 20
 
 We will have a ranked list of recommended videos for each held-out user, we need to compare that to the actual likes of the users. In practical terms we can only show a few recommendations at a time so ranking is one of the most important factors. In other words we want the right top few recommendations because the UI won't be able to show them all and anyway we were trying to reduce information overload so we had better guess well about what the user would prefer to see. We need to measure if the recommendations for held-out users were actually liked by them and see how close to the top of ranking they were. For this we use a metric called Mean Average Precision at k or MAP@k which gives us insight into precision and ranking:
 
-![](/blog/images/map_at_k.png)
+![](/blog/images/map-at-k.png)
 
     map_at_k.png
 
@@ -51,15 +51,15 @@ We will first measure MAP@1 thru MAP@10 for likes alone. This corresponds to a m
 
 We collected data:
 
-![](/blog/images/rt-map_at_k-data.png)
+![](/blog/images/rt-map-at-k-data.png)
 
-    rt-map_at_k-data.png
+    rt-map-at-k-data.png
 
 We ran the test:
 
-![](/blog/images/rt-map_at_k-chart.png)
+![](/blog/images/rt-map-at-k-chart.png)
 
-    rt-map_at_k-chart.png
+    rt-map-at-k-chart.png
 
 As you can see we got 18% lift by using dislikes as well as likes. Which translates to dislikes predicting likes. Now the "maybe" is turning to "sure that makes sense."
 
