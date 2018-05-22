@@ -1,9 +1,9 @@
 PostList = [
     {
-        title: "Making One Thing Predict Another",
+        title: "How To Make One Thing Predict Another",
         template: "making_dislikes_predict_likes",
         excerpt: "making_dislikes_predict_likes_excerpt",
-        categories: ["news", "datascience"]
+        categories: ["use case", "datascience"]
     },{
         title: "Predictive AI Meets GPUs",
         template: "talk_at_gtc",
