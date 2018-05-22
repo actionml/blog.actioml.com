@@ -62,6 +62,6 @@ We concluded that this method of using behavior in one domain to predict behavio
 
 We have found new applications of CCO like augmenting a search index with words not found in the content but were correlated with users reading the item. This allows slang or missing keywords to hit their mark. We've been able to further augment the index with behavioral information like correlated conversions so the search will boost results by the user's affinity for the item.
 
-CCO is becoming an important new tool in broadening applications of Predictive AI.
+CCO and The Universal Recommender is becoming an important new tool in broadening applications of Predictive AI, one that taps data that only the big guys like Netflix and Amazon were able to.
 
 
