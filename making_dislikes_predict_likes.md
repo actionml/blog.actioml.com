@@ -8,19 +8,16 @@ I won't bore you with lots of stats about information overload but one stands ou
 
 # The Algorithm: CCO
 
-The velocity of progress in Predictiv AI seems to lag other AI topics&mdash;but why? One reason is that the type of information we have for recommendations (a purchase in the E-Com case) is extremely limiting. People only buy so many things in a given place. But we will start to change that now. We'll do it by asking a simple question; is it possible to make one thing we observe about a user predict another? If we can do this we open up a flood gate of new data to make deeper inferences about people's taste. If we can use multimodal data we can use the entire user's clickstream, the categories they prefer, the searches they make, even contextual information like location. Intuitively we know selected bits of this information should help us predict what a user is looking for but up till now all recommenders throw away all but one conversion indicator.
+The velocity of progress in Predictiv AI seems to lag other AI topics&mdash;but why? One reason is that the type of information we have for recommendations (a purchase in the E-Com case) is extremely limiting. People only buy so many things in a given place. But we will start to change that now. We'll do it by asking a simple question; is it possible to make one thing we observe about a user predict another? If we can do this we open up a flood gate of new data to make deeper inferences about people's taste. If we can use multimodal data we can use the entire user's clickstream, the categories they prefer, the searches they make, even contextual information like location. Intuitively we know selected bits of this information should help us predict what a user is looking for but up till now **all** recommenders threw away this multimodal data, only using conversions. 
 
-Let's be more specific so we can test this; can we make a user's dislikes predict their likes. Does this even make sense intuitively? When we first thought about this the all we could say was&mdash;maybe. At the time we were trying to figure out how to use data for likes and dislikes to make recommendations better but there really wasn't a lot written about practical methods to do this.
+Let's be more specific so we can test it; can we make a user's dislikes predict their likes. Does this even make sense intuitively? When we first thought about this all we could say was&mdash;maybe. At the time we were trying to figure out how to use data for likes and dislikes to make recommendations better but there really wasn't a lot written about practical methods to do this.
 
 Notice one of the first really successful Recommender algorithms:
 
 ![](/blog/images/likes-matrix.png)
-
 ![](/blog/images/history-of-likes-vector.png)
 
 ![](/blog/images/cooccurrence-recs-vector.png)
-
-
 
 The math says that every time an item "like" cooccurs with another item's "like" we have a possible correlation. In this sense cooccur means other users have liked the same item and the math counts those cooccurrences to create a score. If we sort/rank all items in the result vector by the cooccurrence scores we would have a decent recommender. But this equation has an extremely interesting extension:
 
