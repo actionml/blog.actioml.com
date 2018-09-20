@@ -8,7 +8,7 @@ Another example is the way we implemented a "trainer" on our demo video recommen
 
 I ran across a new experiment from Amazon that looks promising and combines several of the techniques used above.
 
-## Introducing Amazon Scout
+# Introducing Amazon SCOUT
 
 <a href="https://www.amazon.com/scout/" target="_blank"><img src="blog/images/scout-large.png" /></a>
 

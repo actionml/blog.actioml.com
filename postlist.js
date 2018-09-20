@@ -1,5 +1,10 @@
 PostList = [
     {
+        title: "Innovation in Discovery",
+        template: "innovation_in_discovery",
+        excerpt: "innovation_in_discovery_excerpt",
+        categories: ["use case", "datascience"]
+    },{
         title: "How To Make One Thing Predict Another",
         template: "making_dislikes_predict_likes",
         excerpt: "making_dislikes_predict_likes_excerpt",
