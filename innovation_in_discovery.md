@@ -10,7 +10,7 @@ I ran across a new experiment from Amazon that looks promising and combines seve
 
 # Introducing Amazon SCOUT
 
-<a href="https://www.amazon.com/scout/" target="_blank"><img src="blog/images/scout-large.png" /></a>
+<a href="https://www.amazon.com/scout/" target="_blank"><img src="/blog/images/scout-large.png"></a>
 
 The idea is pretty simple, hit thumbs up or down on images shown to you and Amazon will quickly narrow down to the type of thing you want, without any search terms. It seems like a sort of visual search but there is much more going on behind the scenes so let's reverse engineer the SCOUT to show how predictive and analytical Machine Learning can be used in innovative ways.
 
@@ -51,7 +51,7 @@ Given a multimodal algorithm like the Correlated Cross-Occurrence (CCO) algorith
 Our little thought experiment, backed by previous experiments we've done, used:
 
  - Clustering of behavioral information to maximize variance to learn quicker and to allow the technique to scale to whole new types of products
- - We used pure, unambiguous data: <a href="https://developer.ibm.com/dwblog/2017/mahout-spark-correlated-cross-occurences/" target="_blank">thumbs up and down</a>. But this is still two types of data, which requires a multimodal recommender and rules out most that are publicly available. Not a problem for us since it is exactly what the [Universal Recommender](universal-recommender) does well.
+ - We used pure, unambiguous data: <a href="https://developer.ibm.com/dwblog/2017/mahout-spark-correlated-cross-occurences/" target="_blank">thumbs up and down</a>. But this is still two types of data, which requires a multimodal recommender and rules out most that are publicly available. Not a problem for us since it is exactly what the [Universal Recommender](/universal-recommender) does well.
  - New Recommendations came in interactively in real-time. Again the UR is good at this.
 
 # Postscript
