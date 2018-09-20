@@ -10,7 +10,7 @@ I ran across a new experiment from Amazon that looks promising and combines seve
 
 ## Introducing Amazon Scout
 
-<a href="" target="_blank"><img href=blog/images/scout-large.png /></a>
+<a href="https://www.amazon.com/scout/" target="_blank"><img src="blog/images/scout-large.png" /></a>
 
 The idea is pretty simple, hit thumbs up or down on images shown to you and Amazon will quickly narrow down to the type of thing you want, without any search terms. It seems like a sort of visual search but there is much more going on behind the scenes so let's reverse engineer the SCOUT to show how predictive and analytical Machine Learning can be used in innovative ways.
 
