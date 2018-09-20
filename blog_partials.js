@@ -1,5 +1,17 @@
 BlogPartials = [
   {
+    name: "innovation_in_discovery",
+    template: "",
+    ismd: true,
+    shouldLoad: true
+  },
+  {
+    name: "innovation_in_discovery_excerpt",
+    template: "",
+    ismd: true,
+    shouldLoad: true
+  },
+  {
     name: "making_dislikes_predict_likes",
     template: "",
     ismd: true,
