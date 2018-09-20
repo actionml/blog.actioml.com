@@ -34,7 +34,8 @@ BlogPartials = [
     template: "",
     ismd: true,
     shouldLoad: true
-  },  {
+  },  
+  {
     name: "a_demo",
     template: "",
     ismd: true,
