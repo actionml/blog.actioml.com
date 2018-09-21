@@ -1,7 +1,7 @@
-![image](/blog/images/amazon-scout.png)
+![image](/blog/images/tuscany-leather-messenger-bag.png)
 
-#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on September 20, 2018
+#### Posted by [**Pat Ferrel**](mailto:pat@actionml.com) on March 15, 2017
 
-# [Innovation in Discovery](/blog/{{template}})
+# [When Search is not Enough: Use a Recommender](/blog/{{template}})
 
-### Amazon shows how predictive machine learning can still innovate beyond recommendations. 
+### A story of how I met my favorite computer bag and how to search without words. 

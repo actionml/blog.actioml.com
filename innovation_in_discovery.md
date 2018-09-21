@@ -2,11 +2,11 @@ posted by [**Pat Ferrel**](mailto:pat@actionml.com) Sept 20, 2018
 
 # Innovation in Discovery
 
-Discovery is one of the biggest challenges for any business on the internet. Not only how does one find you but how do people find what they are looking for on your site&mdash;especially if they only have a vague idea to begin with. I wrote about [one crude way to do this](/blog/recommender_for_search.md) with a combination of Search and Recommendations that I use sometimes on Amazon.
+Discovery is one of the biggest challenges for any business on the internet. We work, not only to be found but we need to provide another set of tools for people to find what they are looking for on the site&mdash;especially if they only have a vague idea to begin with. I wrote about [one way to do this](/blog/recommender_for_search.md) with a combination of Search and Recommendations that I use sometimes on Amazon. 
 
-Another example is the way we implemented a "trainer" on our demo video recommender site. This allows new users to thumbs up or down a list of videos and in so doing train the recommender to know what they like.
+Another example we did is the way we implemented a "trainer" on our demo video recommender site. This allows new users to thumbs up or down a list of videos and in so doing train the recommender to know what they like quickly.
 
-I ran across a new experiment from Amazon that looks promising and combines several of the techniques used above.
+I ran across a new experiment from Amazon that looks promising and combines several of the techniques used above. This idea of building a visual search backed by machine learning has taken another step on Amazon with the SCOUT experiment.
 
 # Introducing Amazon SCOUT
 
@@ -16,25 +16,25 @@ The idea is pretty simple, hit thumbs up or down on images shown to you and Amaz
 
 # Building a Scout
 
-The first question is; "how did they pick the products to show?" This might seem obvious but not so fast. The ultimate goal is learning about the user's taste as quickly as possible with the fewest choices. In machine learning analytics this means showing items that have the minimal covariance, meaning they are in general not preferred by the same people.
+The first question is; "how did they pick the products to show?" This might seem obvious but not so fast. The ultimate goal is learning about the user's taste as quickly as possible with the fewest choices. In machine learning analytics this means showing items that have minimal covariance, meaning they are in general preferred by different people. Think of it this way, if two items are liked by many of the same people, then the taste of people who like either items are probably similar. This means that if a new person likes one of the items, they are likely to like the other. We want to avoid showing items like this very often in our scout because we don't get much information if a user picks one of these two similar items. But visual similarity is not a very good measure so we look to variance in the people who have preferred the items&mdash;the more different the group of users who prefer the items the more information is gained by a new user liking one (or disliking).
 
-There are many ways to find these but what we chose in our video recommender trainer, was to cluster products by user behavior and take the top most popular items from these clusters.
+There are many ways to find these items but what we chose in our video recommender trainer, was to cluster products by user behavior and take the top most popular items from these clusters.
 
-The reason for clustering by behavior is that this will find items that are preferred by the same type of people (people who prefer similar things in general). This doesn't guarantee non-covariance but is fairly close to the idea. 
+The reason for clustering by behavior is that this will find items that are preferred by the same type of people (people who prefer similar things in general). This doesn't guarantee non-covariance but is a descent approximation. 
 
-The reason to choose fairly popular things is so that people will have seen them before. This was useful in asking people to rate movies in our trainer and is useful in a hypothetical Scout to show styles that people are familiar with. 
+The reason to choose fairly popular things is so that people will have seen them before. This was useful in asking people to like/dislike movies in our trainer and is useful in our hypothetical scout to show styles that people are familiar with. 
 
-There are several algorithms and data we could use to do this clustering so we used out own recommender model since it already had scrubbed a large amount of user behavior/preference data and I bet this is what Amazon does too.
+There are several algorithms and data we could use to do this clustering so we used our own recommender model since it already had scrubbed a large amount of user behavior/preference data and I bet this is what Amazon does too.
 
 A beginner might be tempted to use a curated list of items but this doesn't scale to large inventories or to changing categories and in fact isn't necessarily related to finding non-covariance at all. Remember the old adage "follow the data".
 
 # The SCOUT UI
 
-Another couple things are clear from the UI, thumbs up and down are the only feedback they ask for. Some might say; "why not get ratings?" The answer I've written about many time&mdash;ratings are extremely weak and problematic to deal with. Here Amazon, as you'd expect, has avoided the weak and problematic.
+Another couple things are clear from the Amazon UI. Thumbs up and down are the only feedback they ask for. Some might say; "why not get ratings?" The answer I've written about many times&mdash;ratings are extremely weak and problematic to deal with. Here Amazon, as you'd expect, has avoided the weak and problematic.
 
 As you click on things you like and dislike new things appear. This gives the illusion that you have only chosen a few since you never see a long list. This makes it into something like a game, more kudos to Amazon.
 
-When SCOUT thinks you have given enough feedback they automatically move to recommending lists of items. IMO they do this a little too soon but this is little more than an experiment and I'm sure they will look at the data to see if I'm right. In any case what data would you look at? If they see consistent choices in terms of picking things that the same users have liked, ok we are done.
+When SCOUT thinks you have given enough feedback they automatically move to recommending lists of items. IMO they do this a little too quickly but time and data will tell. In any case what data would you look at to judge when to stop the *game* part of SCOUT? If they see consistent choices in terms of picking things that the same users have liked, ok we are done. The user has expressed a clear preference.
 
 The other thing to take into account is user fatigue, when does it seem like a chore rather than a game? When is the user ready to get on with shopping?
 
