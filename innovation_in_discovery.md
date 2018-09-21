@@ -10,13 +10,13 @@ I ran across a new experiment from Amazon that looks promising and combines seve
 
 # Introducing Amazon SCOUT
 
-<a href="https://www.amazon.com/scout/" target="_blank"><img src="/blog/images/scout-large.png"></a>
+<a href="https://www.amazon.com/scout/" target="_blank"><img src="/blog/images/amazon-scout-big.png"></a>
 
 The idea is pretty simple, hit thumbs up or down on images shown to you and Amazon will quickly narrow down to the type of thing you want, without any search terms. It seems like a sort of visual search but there is much more going on behind the scenes so let's reverse engineer the SCOUT to show how predictive and analytical Machine Learning can be used in innovative ways.
 
 # Building a Scout
 
-The first question is; "where did they pick the products to show?" This might seem obvious but not so fast. The ultimate goal is learning about the user's taste as quickly as possible with the fewest choices. In machine learning analytics this means showing items that have the minimal covariance, meaning they are in general not preferred by the same people.
+The first question is; "how did they pick the products to show?" This might seem obvious but not so fast. The ultimate goal is learning about the user's taste as quickly as possible with the fewest choices. In machine learning analytics this means showing items that have the minimal covariance, meaning they are in general not preferred by the same people.
 
 There are many ways to find these but what we chose in our video recommender trainer, was to cluster products by user behavior and take the top most popular items from these clusters.
 
@@ -34,9 +34,9 @@ Another couple things are clear from the UI, thumbs up and down are the only fee
 
 As you click on things you like and dislike new things appear. This gives the illusion that you have only chosen a few since you never see a long list. This makes it into something like a game, more kudos to Amazon.
 
-When SCOUT thinks you have given enough feedback they automatically move to recommending lists of items. IMO they do this a little too soon but this is little more than an experiment and I'm sure they will look at the data to see if I'm right. In any case what data would you look at? One thing is how common your choices are in terms of variance. If they see consistent choices in terms of picking things that the same users have liked by purchasing them in the past, they will find a significance value that says&mdash;ok we are done.
+When SCOUT thinks you have given enough feedback they automatically move to recommending lists of items. IMO they do this a little too soon but this is little more than an experiment and I'm sure they will look at the data to see if I'm right. In any case what data would you look at? If they see consistent choices in terms of picking things that the same users have liked, ok we are done.
 
-The other thing to take into account is user fatigue, when does it seem like a chore rather than a game? When are they ready to get on with shopping?
+The other thing to take into account is user fatigue, when does it seem like a chore rather than a game? When is the user ready to get on with shopping?
 
 # The Result
 
