@@ -2,11 +2,11 @@ posted by [**Pat Ferrel**](mailto:pat@actionml.com) Sept 20, 2018
 
 # Innovation in Discovery
 
-Discovery is one of the biggest challenges for any business on the internet. We work, not only to be found but we need to provide another set of tools for people to find what they are looking for on the site&mdash;especially if they only have a vague idea to begin with. I wrote about [one way to do this](/blog/recommender_for_search.md) with a combination of Search and Recommendations that I use sometimes on Amazon. 
+Discovery is one of the biggest challenges for any business on the internet. Evan after SEO work is done we need to provide our own tools for people to find what they are looking for on our sites. Many sites have such a large inventory of products that simple browsing or search is not enough&mdash;especially if users only have a vague idea of what they want. One of the biggest problems with search and browsing is that people often lack the right vocabulary or have only a vague idea of what they want. How often have you thought something like; "I need a computer bag and I'll know the right one when I see it"? I wrote about [one trick](/blog/recommender_for_search.md) I sometimes use on Amazon with a combination of Search and Recommendations. But it's a little cumbersome. 
 
-Another example we did is the way we implemented a "trainer" on our demo video recommender site. This allows new users to thumbs up or down a list of videos and in so doing train the recommender to know what they like quickly.
+Another example we implemented was in the form of a "trainer" on our demo video recommender site. This allows new users to thumbs up or down a list of videos and in so doing train the recommender to know what they like quickly.
 
-I ran across a new experiment from Amazon that looks promising and combines several of the techniques used above. This idea of building a visual search backed by machine learning has taken another step on Amazon with the SCOUT experiment.
+Recently on Amazon you may have seen a button on product pages inviting you to something they call The SCOUT. They are building a visual search backed by machine learning and once it includes enough inventory (currently it is limited to furnishings) Discovery using Predictive AI will have taken an important new step. 
 
 # Introducing Amazon SCOUT
 
